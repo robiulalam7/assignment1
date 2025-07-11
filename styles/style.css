@@ -5,6 +5,12 @@
   font-style: normal;
   background-color:rgb(218, 227, 227);
 }
+
+.data-title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .btn-primary{
     font-size: 16px;
     font-weight: bold;
@@ -72,3 +78,37 @@
     height: 328px;
     border-radius: 50px;
 }
+/* data section */ 
+.productive-users{
+    box-shadow: #76767c;
+    border-radius: 24px;
+    background-color: #aebfc3;
+    margin: 100px 250px;
+}
+.data-head{
+    font-size: 38;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.data-item{
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+    padding:0px 0px 30px 30px;
+    
+}
+.data-title{
+    color: #4E47FF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px ;
+    
+}
+.data-description{
+    font-weight: 600;
+    color: #76767c;
+}
+
+    
