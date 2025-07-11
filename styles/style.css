@@ -3,6 +3,7 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color:rgb(218, 227, 227);
 }
 .btn-primary{
     font-size: 16px;
@@ -41,4 +42,33 @@
 .banner-body .btn-primary{
     margin-bottom: 152px;
     
+}
+/* second part-main*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 340px;
+    margin-left: 150px ;
+    
+}
+.action-h3{
+    font-size: 42px;
+    color: #252432;
+}
+.btn-launch{
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 5px;
+}
+.action-p{
+    color: #76767c;
+}
+.action-img{
+    width: 400px;
+    height: 328px;
+    border-radius: 50px;
 }
