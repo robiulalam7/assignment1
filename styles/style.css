@@ -85,12 +85,11 @@
     background-color: #aebfc3;
     margin: 100px 250px;
 }
-.data-head{
-    font-size: 38;
-    font-weight: bold;
+.productive-users h2{
+    margin-top: 20px;
     text-align: center;
-    
-    
+    padding: 20px;
+
 }
 .data-item{
     display: flex;
