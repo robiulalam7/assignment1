@@ -110,5 +110,104 @@
     font-weight: 600;
     color: #76767c;
 }
+/* users review card section*/
 
+ .reviwer-detail{
+    display: flex;
+    gap: 5px;
+ }
+ .review-parent {
+    display: flex;
+ }
+ .get-started{
+    background-color: aliceblue;
+    border:1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+
+ .btn-get-start{
+    font-size: 12px;
+    color: aliceblue;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
     
+ }
+ .get-image{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 70%;
+    height: 300px;
+ }
+ .form-section {
+  display: flex;
+  width: 1140px;
+  margin: 70px 150px 14px 150px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+ .form-body {
+  flex: 1;
+  
+}
+
+.form-body form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-body label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-body input,
+.form-body textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.form-body textarea {
+  height: 100px;
+}
+
+.form-body button {
+  background-color: #4e5bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+ .form-heading {
+  flex: 1;
+}
+
+.form-heading h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+  margin: 0;
+  
+}
