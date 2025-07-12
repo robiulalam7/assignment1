@@ -211,3 +211,72 @@
   margin: 0;
   
 }
+.footer-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  color: #666;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #4e5bff;
+  margin-bottom: 20px;
+}
+
+.footer-tagline {
+  font-size: 16px;
+  color: #888;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #888;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.review-section{
+    margin: 50px 20px;
+}
+.review-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+.review-footer img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.review-card{
+    background-color: #eeeaea;
+    padding: 25px;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.review-section{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.review-section h2{
+    text-align: center;
+}
